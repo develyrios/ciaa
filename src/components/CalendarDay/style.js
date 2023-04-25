@@ -26,7 +26,7 @@ export const ContainerTitle = styled.div`
     width: 100%;
 `
 
-export const ContainerDescription = styled.div`
+export const ContainerText = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;

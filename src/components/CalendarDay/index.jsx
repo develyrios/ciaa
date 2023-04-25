@@ -1,5 +1,5 @@
-import { CalendarText, CalendarTitle } from "../../styles/Text"
-import { Container, ContainerDescription, ContainerTitle } from "./style"
+import { CalendarParagraph, CalendarTitle } from "../../styles/Text"
+import { Container, ContainerText, ContainerTitle } from "./style"
 
 export const CalendarDay = () => {
     return (
@@ -8,14 +8,14 @@ export const CalendarDay = () => {
                 <CalendarTitle>Segunda (01/04)</CalendarTitle>
             </ContainerTitle>
 
-            <ContainerDescription>
-                <CalendarText>
+            <ContainerText>
+                <CalendarParagraph>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra ut orci non.
-                </CalendarText>
-                <CalendarText>
+                </CalendarParagraph>
+                <CalendarParagraph>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra ut orci non.
-                </CalendarText>
-            </ContainerDescription>
+                </CalendarParagraph>
+            </ContainerText>
         </Container>
     )
 }
