@@ -2,9 +2,9 @@ import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
     :root {
-    --azul-claro: #709FFF;
-    --azul-escuro: #426597;
-    --bege: #FFF5EE;
+        --azul-claro: #709FFF;
+        --azul-escuro: #426597;
+        --bege: #FFF5EE;
     }
 
     * {
@@ -17,7 +17,7 @@ export default createGlobalStyle`
     html {
         width: 100%;
         height: 100%;
-        }
+    }
 
     button {
     cursor: pointer;
