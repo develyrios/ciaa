@@ -27,7 +27,7 @@ export const ContainerTitle = styled.div`
     width: 20%;
 
     @media (max-width: 1100px) {
-        background: none;
+        background: transparent;
         color: var(--azul-claro);
 
         height: fit-content;
@@ -49,7 +49,7 @@ export const ContainerText = styled.div`
     padding: 64px;
 
     @media (max-width: 1100px) {
-        background: none;
+        background: transparent;
         color: var(--azul-escuro);
 
         height: fit-content;

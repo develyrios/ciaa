@@ -20,6 +20,8 @@ export const ContainerTitle = styled.div`
     border-radius: 32px;
 
     padding: 16px;
+
+    width: calc(100% - 32px);
 `
 
 export const TeamList = styled.div`
