@@ -5,6 +5,10 @@ export const ComponentTitle = styled.h1`
     font-weight: 700;
     font-size: 30px;
     text-align: center;
+
+    @media (min-width: 1440px) {
+        font-size: 36px;
+    }
 `
 
 export const TextMedium = styled.p`
@@ -19,6 +23,10 @@ export const TextRegular = styled.p`
     font-weight: 400;
     font-size: 16px;
     text-align: center;
+
+    @media (min-width: 1440px) {
+        font-size: 20px;
+    }
 `
 
 export const CalendarTitle = styled.h2`
@@ -26,11 +34,19 @@ export const CalendarTitle = styled.h2`
     font-weight: 700;
     font-size: 20px;
     text-align: center;
+
+    @media (min-width: 1440px) {
+        font-size: 24px;
+    }
 `
 
-export const CalendarText = styled.p`
+export const CalendarParagraph = styled.p`
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
     text-align: center;
+
+    @media (min-width: 1440px) {
+        font-size: 16px;
+    }
 `

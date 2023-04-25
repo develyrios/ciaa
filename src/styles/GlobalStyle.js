@@ -1,4 +1,5 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components"
+import background from "../assets/bg-circles.svg"
 
 export default createGlobalStyle`
     :root {
@@ -23,10 +24,18 @@ export default createGlobalStyle`
     cursor: pointer;
     }
 
+    body {
+        background-image: url(${background});
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
     #root {
         display: flex;
         flex-direction:column;
         align-items: center;
+        row-gap: 64px;
     }
 
     .bg-azul-claro {
