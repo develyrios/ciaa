@@ -22,6 +22,7 @@ export const ContainerTitle = styled.div`
     padding: 16px;
 
     width: calc(100% - 32px);
+    max-width: fit-content;
 `
 
 export const TeamList = styled.div`
