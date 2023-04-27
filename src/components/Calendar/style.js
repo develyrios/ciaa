@@ -1,4 +1,26 @@
 import styled from "styled-components"
+import wave from "../../assets/wave_calendar.svg"
+
+export const BackgroundContainer = styled.div`
+    background-image: url(${wave});
+    background-position: top -16px left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    @media (min-width: 1440px) {
+        background-position: top -24px left;
+    }
+
+    @media (max-width: 900px) {
+        background-position: top left;
+    }
+`
 
 export const Container = styled.div`
     display: flex;

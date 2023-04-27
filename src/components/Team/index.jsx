@@ -1,6 +1,6 @@
 import { ComponentTitle, TextRegular } from "../../styles/Text"
 import { UserLink } from "../UserLink"
-import { Container, TeamList, ContainerTitle } from "./style"
+import { Container, TeamList, ContainerTitle, TeamListBackgroungContainer } from "./style"
 import AdmsAt from "./users-at"
 
 export const Team = () => {
@@ -11,16 +11,18 @@ export const Team = () => {
     }
 
     return (
-        <Container className="bg-azul-escuro">
-            <ContainerTitle className="bg-azul-claro">
+        <Container>
+            <ContainerTitle>
                 <ComponentTitle>Conheça a administração</ComponentTitle>
 
                 <TextRegular>E aproveite para nos seguir!</TextRegular>
             </ContainerTitle>
 
-            <TeamList>
-                {getAdmsAt()}
-            </TeamList>
+            <TeamListBackgroungContainer className="bg-azul-escuro">
+                <TeamList>
+                    {getAdmsAt()}
+                </TeamList>
+            </TeamListBackgroungContainer>
         </Container>
     )
 }
