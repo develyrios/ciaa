@@ -4,7 +4,7 @@ import background from "../assets/bg-circles.svg"
 export default createGlobalStyle`
     :root {
         --azul-claro: #709FFF;
-        --azul-escuro: #426597;
+        --azul-escuro: #314A6F;
         --bege: #FFF5EE;
     }
 
@@ -35,7 +35,6 @@ export default createGlobalStyle`
         display: flex;
         flex-direction:column;
         align-items: center;
-        row-gap: 64px;
     }
 
     .bg-azul-claro {
