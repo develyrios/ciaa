@@ -7,7 +7,11 @@ export const ComponentTitle = styled.h1`
     text-align: center;
 
     @media (min-width: 1440px) {
-        font-size: 36px;
+        font-size: 32px;
+    }
+
+    @media (max-width: 450px) {
+        font-size: 20px;
     }
 `
 
