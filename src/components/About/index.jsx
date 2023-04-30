@@ -10,7 +10,7 @@ export const About = () => {
 
             <ContainerText>
                 <TextRegular>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra ut orci non pulvinar. In ultricies purus sed enim interdum, ac viverra dolor fermentum. In ac malesuada est. Nulla facilisi. Maecenas consectetur lobortis massa at commodo. Aliquam vestibulum, risus et imperdiet malesuada, ex nibh rhoncus mauris, in tristique eros dui et urna. Phasellus luctus molestie est et placerat. 
+                A Comunidade Internacional Assexual e Arromântica (CIAA) é a maior comunidade para pessoas que se identificam com a letra "A" da sigla LGBTQIA+ e conta com mais de 1600 membros. Se você se identifica com uma dessas orientações, junte-se a nós e vamos dominar o mundo! 
                 </TextRegular>
             </ContainerText>
         </Container>

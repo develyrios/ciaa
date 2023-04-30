@@ -1,20 +1,15 @@
 import { CalendarParagraph, CalendarTitle } from "../../styles/Text"
 import { Container, ContainerText, ContainerTitle } from "./style"
 
-export const CalendarDay = () => {
+export const CalendarDay = ({ title, text }) => {
     return (
         <Container className="bg-bege">
             <ContainerTitle>
-                <CalendarTitle>Segunda (01/04)</CalendarTitle>
+                <CalendarTitle>{title}</CalendarTitle>
             </ContainerTitle>
 
             <ContainerText>
-                <CalendarParagraph>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra ut orci non.
-                </CalendarParagraph>
-                <CalendarParagraph>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra ut orci non.
-                </CalendarParagraph>
+                <CalendarParagraph>{text}</CalendarParagraph>
             </ContainerText>
         </Container>
     )

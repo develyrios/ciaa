@@ -30,6 +30,14 @@ export const Container = styled.div`
 
     @media (max-width: 450px) {
         background-position: top 64px left, bottom 52px left;
+
+        h1 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 16px;
+        }
     }
 `
 
