@@ -23,10 +23,6 @@ export const TextRegular = styled.p`
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-
-    /* @media (min-width: 1280px) {
-        font-size: 20px;
-    } */
 `
 
 export const CalendarTitle = styled.h2`
