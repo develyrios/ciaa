@@ -30,7 +30,6 @@ export const ContainerText = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    row-gap: 4px;
 
     padding: 4px;
 `

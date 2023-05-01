@@ -30,4 +30,10 @@ export const Container = styled.nav`
             transform: scale(0.75);
         }
     }
+
+    @media (max-width: 360px) {
+        h1 {
+            font-size: 28px;
+        }
+    }
 `
